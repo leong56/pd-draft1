@@ -1,0 +1,30 @@
+/* Styles go here */
+
+body {
+  font-family: sans-serif;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+
+.box {
+  background-color: #eeeeee;
+  padding: 20px;
+}
+
+table {
+  border: 1px solid black;
+  margin-top: 10px;
+  text-align: center;
+  padding: 30px;
+}
