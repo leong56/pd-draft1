@@ -20,9 +20,9 @@ var playerInteractions = {
       this.player1.points += 3;
       this.player2.points += 3;
     } else if(this.player1.strategy === "cooperate" && this.player2.strategy === "defect") {
-      this.player1.points += 5;
+      this.player2.points += 5;
     } else if(this.player1.strategy === "defect" && this.player2.strategy === "cooperate") {
-      this.player2.points += 5;      
+      this.player1.points += 5;      
     } else if(this.player1.strategy === "defect" && this.player2.strategy === "defect") {
       this.player1.points += 1;
       this.player2.points += 1;      
