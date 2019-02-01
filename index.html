@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+  <div class="box">
+    <div>
+      <select id="player1Choice">
+        <option></option>
+        <option value="cooperate">cooperate</option>
+        <option value="defect">defect</option>
+      </select>
+     
+     
+      <select id="player2Choice">
+        <option></option>
+        <option value="cooperate">cooperate</option>
+        <option value="defect">defect</option>
+      </select>
+    </div>
+    
+    <div>
+      <button onclick="playerInteractions.playOneRound()">Play a round!</button>
+      <button onclick="playerInteractions.clear()">Clear results.</button>
+    </div>
+    <table>
+      <tr>
+        <th>Player 1</th>
+        <th>Player 2</th>
+      </tr>
+      <tr>
+        <td id="player1Points">0</td>
+        <td id="player2Points">0</td>
+      </tr>
+    </table>
+
+  </div>
+  <script src="script.js"></script>
+  </body>
+
+</html>
